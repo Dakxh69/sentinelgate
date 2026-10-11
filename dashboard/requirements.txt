@@ -1,0 +1,3 @@
+# Dashboard dependencies for Streamlit UI
+streamlit>=1.65
+pandas>=3.0

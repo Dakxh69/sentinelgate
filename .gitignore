@@ -1,0 +1,64 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*/.venv/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# C++ Build Artifacts & CMake
+build/
+*/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.a
+*.so
+*.dylib
+dlp-engine/build/
+dlp-engine/dlp-engine
+dlp-engine-binary
+
+# Local Services & Runtime Data
+.local-services/
+.smoke/
+*.log
+*.pid
+
+# Sensitive Information & Environment Files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.cert
+
+# AI prompt specs & Dev-run artifacts (preserves clean, professional engineering presentation)
+spec.md
+specs/
+senior_test_report*.txt
+python3
+python3.14
+
+# IDE & OS Artifacts
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
