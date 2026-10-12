@@ -39,6 +39,9 @@ dlp-engine-binary
 .smoke/
 *.log
 *.pid
+*.sqlite
+*.sqlite3
+*.db
 
 # Sensitive Information & Environment Files
 .env
@@ -47,8 +50,10 @@ dlp-engine-binary
 *.key
 *.pem
 *.cert
+*.p12
+*.pfx
 
-# AI prompt specs & Dev-run artifacts (preserves clean, professional engineering presentation)
+# Project-local planning and development artifacts
 spec.md
 specs/
 senior_test_report*.txt
@@ -62,3 +67,7 @@ python3.14
 *.swp
 *.swo
 *~
+
+# Local tooling
+.python-version
+.direnv/

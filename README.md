@@ -1,8 +1,8 @@
 # SentinelGate — Zero-Trust Security Gateway & DLP Engine
 
-SentinelGate is a [project](https://github.com/) built to demonstrate a
-production-style security gateway: it sits between clients and a protected
-backend and evaluates **every** request before allowing it through.
+SentinelGate is a security gateway and data-loss prevention (DLP) service
+designed for deployments where every request must be authenticated,
+authorized, rate-limited, and audited before it reaches a protected backend.
 
 ## Table of contents
 
